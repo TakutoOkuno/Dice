@@ -1,0 +1,19 @@
+.container {
+width: 100vw;
+height:  100vw;
+}
+
+.test {
+background-color: rgba(160, 160, 120, 0.6);
+width: 100vw;
+height: 100vw;
+font-size: 200px;
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+
+.btn {
+width: 100%;
+margin-top: 12px;
+}
