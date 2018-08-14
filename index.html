@@ -2,16 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
   <title>dice</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>100面ダイス</h1>
-
-<div class="container1">
-  <div id="test1" class="test"></div>
-  <button id="btn1" class="btn" type="submit">更新する</button>
+  <h1>1〜100面ダイス</h1>
+<div class="container">
+  <p id="description">1から100までの数字を選び、設定ボタンを押してください。</p>
+  <select id="sel"></select>
+<input id="numBtn" type="submit" value="設定" />
+  <div id="test" class="test"></div>
+  <button id="btn" class="btn" type="submit" onclick="createResult">ダイスを振る</button>
 </div>
 
   <script src="script.js"></script>
